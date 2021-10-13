@@ -1,6 +1,6 @@
 package my.languages;
 
-public class Sphere {
+public class Sphere extends Circle {
   private double radius;
   
   public Sphere() {

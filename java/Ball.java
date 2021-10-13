@@ -1,6 +1,6 @@
 package my.languages;
 
-public class Ball {
+public class Ball extends Sphere {
   private double radius;
   private double weight;
   
