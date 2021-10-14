@@ -4,15 +4,10 @@ public class Circle {
   private double radius;
   
   public Circle() {
-    System.out.println("[Create CIRCLE]");
-  }
-  
-  public Circle(double r) {
-    radius = r;
+    radius = 0;
   }
   
   public void setRadius(double r) {
-    System.out.println("--> Setting radius for CIRCLE");
     radius = r;
   }
   
@@ -32,3 +27,4 @@ public class Circle {
       return (Math.PI * Math.pow(radius, 2.0));
   }
 }
+

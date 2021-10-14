@@ -5,16 +5,10 @@ public class Ball extends Sphere {
   private double weight;
   
   public Ball() {
-    System.out.println("[Create BALL]");
-  }
-  
-  public Ball(double r, double w) {
-    radius = r;
-    weight = w;
+    radius = 0;
   }
   
   public void setRadius(double r) {
-    System.out.println("--> Setting radius for BALL");
     radius = r;
   }
   

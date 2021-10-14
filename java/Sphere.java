@@ -4,15 +4,10 @@ public class Sphere extends Circle {
   private double radius;
   
   public Sphere() {
-    System.out.println("[Create SPHERE]");
-  }
-  
-  public Sphere(double r) {
-    radius = r;
+    radius = 0;
   }
   
   public void setRadius(double r) {
-    System.out.println("--> Setting radius for SPHERE");
     radius = r;
   }
   
