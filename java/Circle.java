@@ -21,14 +21,14 @@ public class Circle {
   }
   
   public double getDiameter() {
-      return (2 * radius);
+      return (2.0 * radius);
   }
 
   public double getCircumference() {
-      return (2 * Math.PI * radius);
+      return (2.0 * Math.PI * radius);
   }
 
   public double getArea() {
-      return (Math.PI * Math.pow(radius, 2));
+      return (Math.PI * Math.pow(radius, 2.0));
   }
 }

@@ -21,15 +21,15 @@ public class Sphere extends Circle {
   }
   
   public double getDiameter() {
-      return (2 * radius);
+      return (2.0 * radius);
   }
 
   public double getCircumference() {
-      return (2 * Math.PI * radius);
+      return (2.0 * Math.PI * radius);
   }
 
   public double getArea() {
-      return (Math.PI * Math.pow(radius, 2.0));
+      return (4.0 * Math.PI * Math.pow(radius, 2.0));
   }
   
   public double getVolume() {
