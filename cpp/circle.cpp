@@ -9,27 +9,27 @@ Circle::~Circle()
 {
 }
 
-void Circle::setRadius(float r)
+void Circle::setRadius(double r)
 {
     radius = r;
 }
 
-float Circle::getRadius()
+double Circle::getRadius()
 {
     return radius;
 }
 
-float Circle::getDiameter()
+double Circle::getDiameter()
 {
     return (2 * radius);
 }
 
-float Circle::getCircumference()
+double Circle::getCircumference()
 {
     return (2 * M_PI * radius);
 }
 
-float Circle::getArea()
+double Circle::getArea()
 {
     return (M_PI * pow(radius, 2));
 }

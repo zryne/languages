@@ -8,32 +8,32 @@ Sphere::~Sphere()
 {
 }
 
-void Sphere::setRadius(float r)
+void Sphere::setRadius(double r)
 {
     radius = r;
 }
 
-float Sphere::getRadius()
+double Sphere::getRadius()
 {
     return radius;
 }
 
-float Sphere::getDiameter()
+double Sphere::getDiameter()
 {
     return (2 * radius);
 }
 
-float Sphere::getCircumference()
+double Sphere::getCircumference()
 {
     return (2 * M_PI * radius);
 }
 
-float Sphere::getArea()
+double Sphere::getArea()
 {
     return (M_PI * pow(radius, 2));
 }
 
-float Sphere::getVolume()
+double Sphere::getVolume()
 {
     return (4.0/3.0 * M_PI * pow(radius, 3.0));
 }

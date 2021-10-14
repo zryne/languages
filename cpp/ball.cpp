@@ -8,42 +8,42 @@ Ball::~Ball()
 {
 }
 
-void Ball::setRadius(float r)
+void Ball::setRadius(double r)
 {
     radius = r;
 }
 
-float Ball::getRadius()
+double Ball::getRadius()
 {
     return radius;
 }
 
-float Ball::getWeight()
+double Ball::getWeight()
 {
     return weight;
 }
 
-float Ball::getDiameter()
+double Ball::getDiameter()
 {
     return (2 * radius);
 }
 
-float Ball::getCircumference()
+double Ball::getCircumference()
 {
     return (2 * M_PI * radius);
 }
 
-float Ball::getArea()
+double Ball::getArea()
 {
     return (M_PI * pow(radius, 2));
 }
 
-float Ball::getVolume()
+double Ball::getVolume()
 {
     return (4.0/3.0 * M_PI * pow(radius, 3.0));
 }
 
-void Ball::setWeight(float w)
+void Ball::setWeight(double w)
 {
     weight = w;
 }

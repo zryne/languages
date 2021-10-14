@@ -6,19 +6,19 @@
 class Sphere : public Circle
 {
     private:
-        float radius;
+        double radius;
 
     public:
         Sphere();
         ~Sphere();
 
-        void setRadius(float r);
+        void setRadius(double r);
 
-        float getRadius();
-        float getDiameter();
-        float getCircumference();
-        float getArea();
-        float getVolume();
+        double getRadius();
+        double getDiameter();
+        double getCircumference();
+        double getArea();
+        double getVolume();
 };
 
 #endif  // _SPHERE_H_

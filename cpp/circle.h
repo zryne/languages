@@ -9,18 +9,18 @@ using namespace std;
 class Circle
 {
     private:
-        float radius;
+        double radius;
 
     public:
         Circle();
         ~Circle();
 
-        void setRadius(float r);
+        void setRadius(double r);
 
-        float getRadius();
-        float getDiameter();
-        float getCircumference();
-        float getArea();
+        double getRadius();
+        double getDiameter();
+        double getCircumference();
+        double getArea();
 };
 
 #endif  // _CIRCLE_H_

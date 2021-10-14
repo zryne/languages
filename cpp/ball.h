@@ -6,22 +6,22 @@
 class Ball : public Sphere
 {
     private:
-        float radius;
-        float weight;
+        double radius;
+        double weight;
 
     public:
         Ball();
         ~Ball();
 
-        void setRadius(float r);
-        void setWeight(float w);
+        void setRadius(double r);
+        void setWeight(double w);
 
-        float getRadius();
-        float getDiameter();
-        float getCircumference();
-        float getArea();
-        float getVolume();
-        float getWeight();
+        double getRadius();
+        double getDiameter();
+        double getCircumference();
+        double getArea();
+        double getVolume();
+        double getWeight();
 };
 
 #endif  // _BALL_H_
