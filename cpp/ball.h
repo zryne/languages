@@ -11,7 +11,6 @@ class Ball : public Sphere
 
     public:
         Ball();
-        Ball(float r);
         ~Ball();
 
         void setRadius(float r);

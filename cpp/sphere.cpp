@@ -2,22 +2,14 @@
 
 Sphere::Sphere()
 {
-    cout << "[Create SPHERE]" << endl;
-}
-
-Sphere::Sphere(float r)
-{
-    radius = r;
 }
 
 Sphere::~Sphere()
 {
-    cout << "[Destroy SPHERE]" << endl;
 }
 
 void Sphere::setRadius(float r)
 {
-    cout << "--> Setting radius for SPHERE" << endl;
     radius = r;
 }
 

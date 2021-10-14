@@ -13,7 +13,6 @@ class Circle
 
     public:
         Circle();
-        Circle(float r);
         ~Circle();
 
         void setRadius(float r);
@@ -25,3 +24,4 @@ class Circle
 };
 
 #endif  // _CIRCLE_H_
+

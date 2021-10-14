@@ -2,22 +2,15 @@
 
 Circle::Circle()
 {
-    cout << "[Create CICLE]" << endl;
-}
-
-Circle::Circle(float r)
-{
-    radius = r;
+    radius = 0;
 }
 
 Circle::~Circle()
 {
-    cout << "[Destroy CICLE]" << endl;
 }
 
 void Circle::setRadius(float r)
 {
-    cout << "--> Setting radius for CIRCLE" << endl;
     radius = r;
 }
 

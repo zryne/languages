@@ -10,7 +10,6 @@ class Sphere : public Circle
 
     public:
         Sphere();
-        Sphere(float r);
         ~Sphere();
 
         void setRadius(float r);
